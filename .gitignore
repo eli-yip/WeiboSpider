@@ -1,5 +1,6 @@
 cookie.txt
 spider_config.toml
+/output
 # 
 # python generated files
 __pycache__/
