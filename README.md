@@ -1,42 +1,13 @@
-<p align="center">
-    <br>
-    <img src="./.github/weibospider.png" width="400"/>
-    <br>
-<p>
-<p align="center">
-  <a href="https://www.codacy.com/gh/nghuyong/WeiboSpider/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nghuyong/WeiboSpider&amp;utm_campaign=Badge_Grade">
-    <img src="https://app.codacy.com/project/badge/Grade/cf88a8b1e6e44c5d993d2cbea7d44c85"
-         alt="Codacy Badge">
-  </a>
-    <a href="https://scan.coverity.com/projects/nghuyong-weibospider">
-    <img alt="Coverity Scan Build Status"
-       src="https://scan.coverity.com/projects/26928/badge.svg"/>
-  </a>
-    <a href="https://github.com/nghuyong/WeiboSpider/stargazers">
-    <img src="https://img.shields.io/github/stars/nghuyong/WeiboSpider.svg?colorA=orange&colorB=orange&logo=github"
-         alt="GitHub stars">
-  </a>
-  <a href="https://github.com/nghuyong/WeiboSpider/issues">
-        <img src="https://img.shields.io/github/issues/nghuyong/WeiboSpider.svg"
-             alt="GitHub issues">
-  </a>
-  <a href="https://github.com/nghuyong/WeiboSpider/forks">
-        <img src="https://img.shields.io/github/forks/nghuyong/WeiboSpider.svg"
-             alt="GitHub forks">
-  </a>
-  <a href="https://github.com/nghuyong/WeiboSpider/">
-        <img src="https://img.shields.io/github/last-commit/nghuyong/WeiboSpider.svg">
-  </a>
-  <a href="https://github.com/nghuyong/WeiboSpider/blob/master/LICENSE">
-        <img src="https://img.shields.io/github/license/nghuyong/WeiboSpider.svg"
-             alt="GitHub license">
-  </a>
-</p>
+# Weibo Spider
 
-<h4 align="center">
-    <p>持续维护的新浪微博采集工具🚀🚀🚀</p>
-</h4>
-
+> [!CAUTION]
+> 分叉说明：
+>
+> 本项目会尽量与上游保持一致，目前做出了如下更改：
+>
+> 1. 将用户博文采集的配置独立为`toml`配置文件，使用时将`weibospider/config/spider_config.example.toml`复制为`weibospider/config/spider_config.toml`并修改其中的值。
+> 2. 将`cookie.txt`重命名为`cookie.example.txt`，使用时将其拷贝为`cookie.txt`并替换其中的值。
+> 3. 使用[`rye`](https://rye.astral.sh/)作为项目包管理工具，安装`rye`之后使用`rye sync`安装依赖。
 
 ## 项目特色
 
