@@ -8,6 +8,7 @@ authors = [
 dependencies = [
     "python_dateutil",
     "scrapy>=2.12.0",
+    "toml>=0.10.2",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"

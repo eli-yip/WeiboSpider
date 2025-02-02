@@ -1,0 +1,15 @@
+[tweet_by_user_id]
+# 待采集的用户ID列表
+user_ids = ["1087770692"]
+
+# 是否采集特定时间段的推文
+is_crawl_specific_time_span = true
+
+# 采集的时间范围
+[tweet_by_user_id.time_span]
+start_year = 2022
+start_month = 1
+start_day = 1
+end_year = 2023
+end_month = 1
+end_day = 1
