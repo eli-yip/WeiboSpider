@@ -7,7 +7,7 @@
 >
 > 1. 将用户博文采集的配置独立为`toml`配置文件，使用时将`weibospider/config/spider_config.example.toml`复制为`weibospider/config/spider_config.toml`并修改其中的值。
 > 2. 将`cookie.txt`重命名为`cookie.example.txt`，使用时将其拷贝为`cookie.txt`并替换其中的值。
-> 3. 使用[`rye`](https://rye.astral.sh/)作为项目包管理工具，安装`rye`之后使用`rye sync`安装依赖。
+> 3. 使用[`uv`](https://docs.astral.sh/uv)作为项目包管理工具，安装`uv`之后使用`uv sync`安装依赖。
 
 ## 项目特色
 
